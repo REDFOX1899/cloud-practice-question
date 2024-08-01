@@ -16,7 +16,7 @@ This project is an MCQ (Multiple Choice Questions) quiz application that I desig
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/mustafareza47/quiz-app.git
+    git clone https://github.com/MUSTAFAREZA47/quiz-app.git
     ```
 2. Navigate to the project directory:
     ```bash
