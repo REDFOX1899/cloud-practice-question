@@ -16,11 +16,11 @@
     </div>
     <script src="auth.js"></script>
     <script>
-        function login(event) {
-            event.preventDefault();
-            const username = document.getElementById('username').value;
-            login(username);
-        }
+    function login(event) {
+        event.preventDefault();
+        const username = document.getElementById('username').value;
+        loginUser(username);  // Use the renamed function
+    }
     </script>
 </body>
 </html>
