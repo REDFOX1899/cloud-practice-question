@@ -8,9 +8,11 @@ This project is an MCQ (Multiple Choice Questions) quiz application that I desig
 
 ## Features
 
+- **Exam Selection**: Users can select the exam they are preparing for.
 - **Quiz Functionality**: Users can take multiple-choice quizzes with questions fetched from an API.
 - **Responsive Design**: The layout is designed to be responsive using CSS.
-- **API Integration**: Fetches quiz data from an API and displays it dynamically.
+- **User Tracking**: Tracks the number of questions attempted by each user.
+- **Answer Tab**: Displays the correct answer if the user inputs a wrong answer.
 
 ## How to Run
 
