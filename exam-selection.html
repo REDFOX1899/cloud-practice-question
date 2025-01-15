@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Select Your Exam</h1>
+        <div class="exam-list">
+            <button onclick="selectExam('gcp-associate')">GCP Associate</button>
+            <button onclick="selectExam('gcp-cloud-architect')">GCP Cloud Architect</button>
+            <button onclick="selectExam('devops')">DevOps</button>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+    <script>
+        function selectExam(exam) {
+            localStorage.setItem('selectedExam', exam);
+            window.location.href = 'quiz.html';
+        }
+    </script>
+</body>
+</html>
