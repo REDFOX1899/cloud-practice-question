@@ -1,4 +1,4 @@
-// auth.js
+// auth.js ss
 const user = localStorage.getItem('user');
 if (!user && window.location.pathname !== '/index.html') {
     window.location.href = 'index.html';
