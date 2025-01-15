@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz-style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Omega Quiz</h1>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-btns">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+        <div id="answer-tab" style="display: none;">
+            <h3>Correct Answer:</h3>
+            <p id="correct-answer"></p>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>
